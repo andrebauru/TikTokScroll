@@ -35,4 +35,4 @@ Este projeto foi desenvolvido por [André TsC](https://github.com/Andretsc).
 
 Se você gostou deste projeto e deseja apoiá-lo, sinta-se à vontade para me oferecer um café. Sua contribuição será muito apreciada!
 
-[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/Andretsc)
+[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/andrebauru@hotmail.com)
