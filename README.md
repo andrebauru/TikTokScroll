@@ -29,7 +29,7 @@ O TikTokLite é um aplicativo desenvolvido com o framework Flutter. Ele exibe um
 
 ## Créditos
 
-Este projeto foi desenvolvido por [André Tsuruda](https://github.com/Andretsc).
+Este projeto foi desenvolvido por [André TsC](https://github.com/Andretsc).
 
 ## Doe um Café
 
