@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
@@ -17,7 +16,7 @@ class _VideoPlayerWidgetState extends State<VideoPlayerWidget> {
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.network(widget.videoUrl)
+    _controller = VideoPlayerController.networkUrl(widget.videoUrl)
       ..initialize().then((_) {
         setState(() {});
         _controller.play();
@@ -40,4 +39,3 @@ class _VideoPlayerWidgetState extends State<VideoPlayerWidget> {
         : Center(child: CircularProgressIndicator());
   }
 }
-    
