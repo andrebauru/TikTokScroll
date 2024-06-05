@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
+//import 'dart:io';
 
 class VideoPlayerWidget extends StatefulWidget {
   final String videoUrl;
@@ -16,7 +17,7 @@ class _VideoPlayerWidgetState extends State<VideoPlayerWidget> {
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.networkUrl(widget.videoUrl)
+    _controller = VideoPlayerController.networkUrl(Uri.parse(widget.videoUrl))
       ..initialize().then((_) {
         setState(() {});
         _controller.play();
